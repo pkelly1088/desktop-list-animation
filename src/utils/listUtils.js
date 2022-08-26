@@ -1,20 +1,3 @@
-// export const getData = async (url) => {
-//     try{
-//         const response = await fetch(url);
-//         if(!response.ok) {
-//             const errorMessage = ('Error occurred with GET fetch: ', response.status, response.statusText);
-//             throw new Error(errorMessage);
-//         }
-//         const data = await response.json();
-//         if (data) {
-//             return data
-//         }
-//     }
-//     catch(error) {
-//         throw new Error(error);
-//     }
-// }
-
 export const objectStateKey = (object, state) => {
     return Object.keys(object.states)[state - 1]
 };
