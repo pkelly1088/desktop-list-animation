@@ -1,0 +1,28 @@
+.layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.state-count {
+    line-height: 1.5;
+}
+
+.state-button {
+    background-color: #3071e8;
+    color: #ffffff;
+    font-size: 1rem;
+    border: 0;
+    border-radius: .25rem;
+    padding: 1rem 1.5rem;
+}
+
+.state-button:hover, .state-button:active {
+    background-color:#204A97;
+    cursor: pointer;
+}
+
+.count {
+    color: #3071e8;
+    font-weight: 700;
+}

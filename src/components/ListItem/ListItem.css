@@ -1,0 +1,16 @@
+.item-container {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #192734;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    border: 2px solid #22303C
+}
+
+.state {
+    color: #8899A6;
+    font-weight: 700;
+}
